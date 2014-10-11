@@ -1,0 +1,8 @@
+v1.0.0_20130304alpha
+【注意】OracleToWord为主程序
+1.数据库文档.docx：数据库设计文档
+3.在程序中有4个变量：
+  CONNECT = "test/test@TEST"                   ：数据库连接信息
+  ENCODE = "gbk"                               ：字符编码方式*********一般不用修改
+  FILENAME = u"\\数据库文档.doc".encode(ENCODE)：文件名***************自己定义
+  FLAG = 1				       ：写文件标志，0表示不写入word，1表示写入word
